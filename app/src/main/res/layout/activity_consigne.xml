@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/consigneescreen"
+    tools:context=".childUi.Consigne">
+
+    <TextView
+        android:id="@+id/consigne_back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consigne_back_btn">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:ems="10"
+                android:hint="Consignee Name"
+                android:inputType="textPersonName"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/address_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:ems="10"
+                android:hint="Consignee Address"
+                android:inputType="textPersonName"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/country_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:entries="@array/Consignee_country"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/city_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:ems="10"
+                android:hint="Consignee City"
+                android:inputType="textPersonName"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/state_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:ems="10"
+                android:hint="Consignee State"
+                android:inputType="textPersonName"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/phone_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:ems="10"
+                android:hint="Consignee Phone Number"
+                android:inputType="phone"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/zipcode_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:ems="10"
+                android:hint="Consignee Zip Code/ Post"
+                android:inputType="textPersonName"
+                android:paddingStart="20dp"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#00C42E" />
+
+            <Spinner
+                android:id="@+id/price_class_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:entries="@array/price_class"
+                android:paddingStart="20dp" />
+
+            <Spinner
+                android:id="@+id/handling_code_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:entries="@array/handling_code"
+                android:paddingStart="20dp" />
+
+            <Spinner
+                android:id="@+id/commodity_code_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputfield"
+                android:entries="@array/commodity_code"
+                android:paddingStart="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/consignee_book_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/consigneebookscreen" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

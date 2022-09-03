@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/help"
+    tools:context=".ui.help.HelpFragment">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="46dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fb_btn"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ln_btn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ln_btn"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/linkedin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tw_btn"
+        app:layout_constraintStart_toEndOf="@+id/fb_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ws_btn"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tw_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tw_btn"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/twitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ws_btn"
+        app:layout_constraintStart_toEndOf="@+id/ln_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

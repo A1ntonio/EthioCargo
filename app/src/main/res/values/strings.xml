@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">Ethio-Cargo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="origin">
+        <item>Select Origin</item>
+        <item>Addis Ababa (ADD)</item>
+        <item>Arba Minch (AMH)</item>
+        <item>Axum (AXU)</item>
+        <item>Bahar Dar (BJR)</item>
+        <item>Dire Dawa (DIR)</item>
+        <item>Gondar (GDQ)</item>
+        <item>Gambella (GMB)</item>
+        <item>Jimma (JIM)</item>
+        <item>Lalibella (LLI)</item>
+        <item>Mekelle (MQX)</item>
+        <item>Semera (SZE)</item>
+        <item>Jijiga (JIJ)</item>
+        <item>Shire (SHC)</item>
+        <item>Kombolcha (DSE)</item>
+        <item>Goba Bale - Goba (GOB)</item>
+        <item>Humera (HUE)</item>
+        <item>Assosa (ASO)</item>
+        <item>Gode (GDE)</item>
+        <item>Hawassa (AWA)</item>
+        <item>Dembidollo (DEM)</item>
+        <item>Jinka (BCO)</item>
+    </string-array>
+    <string-array name="destination">
+        <item>Select Destination</item>
+        <item>Addis Ababa (ADD)</item>
+        <item>Arba Minch (AMH)</item>
+        <item>Axum (AXU)</item>
+        <item>Bahar Dar (BJR)</item>
+        <item>Dire Dawa (DIR)</item>
+        <item>Gondar (GDQ)</item>
+        <item>Gambella (GMB)</item>
+        <item>Jimma (JIM)</item>
+        <item>Lalibella (LLI)</item>
+        <item>Mekelle (MQX)</item>
+        <item>Semera (SZE)</item>
+        <item>Jijiga (JIJ)</item>
+        <item>Shire (SHC)</item>
+        <item>Kombolcha (DSE)</item>
+        <item>Goba Bale - Goba (GOB)</item>
+        <item>Humera (HUE)</item>
+        <item>Assosa (ASO)</item>
+        <item>Gode (GDE)</item>
+        <item>Hawassa (AWA)</item>
+        <item>Dembidollo (DEM)</item>
+        <item>Jinka (BCO)</item>
+        <item>Abuja (ABV) Nigeria Africa</item>
+        <item>Accra (ACC) Ghana Africa</item>
+        <item>Addis Ababa (ADD) Ethiopia Africa</item>
+        <item>Arba Minch (AMH) Ethiopia Africa</item>
+        <item>Atlanta (ATL) United States Americas</item>
+        <item>Axum (AXU) Ethiopia Africa</item>
+        <item>Beirut (BEY) Lebanon Asia</item>
+        <item>Bujumbura (BJR) Burundi Africa</item>
+        <item>Bahar Dar (BJR) Ethiopia Africa</item>
+        <item>Bamako (BKO) Mali Africa</item>
+        <item>Mumbai (BOM) India Asia</item>
+        <item>Boston (BOS) United States America</item>
+        <item>Brussels (BRU) Belgium Europe</item>
+        <item>Cairo (CAI) Egypt Africa</item>
+    </string-array>
+    <string-array name="unit">
+        <item>KG</item>
+    </string-array>
+    <string-array name="Agent">
+        <item>Select Agent</item>
+        <item>Addis Ababa City Ticket Office (Bole International Airport)</item>
+    </string-array>
+    <string-array name="From">
+        <item>From</item>
+        <item>Addis Ababa (ADD)</item>
+        <item>Arba Minch (AMH)</item>
+        <item>Axum (AXU)</item>
+        <item>Bahar Dar (BJR)</item>
+        <item>Dire Dawa (DIR)</item>
+        <item>Gondar (GDQ)</item>
+        <item>Gambella (GMB)</item>
+        <item>Jimma (JIM)</item>
+        <item>Lalibella (LLI)</item>
+        <item>Mekelle (MQX)</item>
+        <item>Semera (SZE)</item>
+        <item>Jijiga (JIJ)</item>
+        <item>Shire (SHC)</item>
+        <item>Kombolcha (DSE)</item>
+        <item>Goba Bale - Goba (GOB)</item>
+        <item>Humera (HUE)</item>
+        <item>Assosa (ASO)</item>
+        <item>Gode (GDE)</item>
+        <item>Hawassa (AWA)</item>
+        <item>Dembidollo (DEM)</item>
+        <item>Jinka (BCO)</item>
+    </string-array>
+    <string-array name="To">
+        <item>To</item>
+        <item>Addis Ababa (ADD)</item>
+        <item>Arba Minch (AMH)</item>
+        <item>Axum (AXU)</item>
+        <item>Bahar Dar (BJR)</item>
+        <item>Dire Dawa (DIR)</item>
+        <item>Gondar (GDQ)</item>
+        <item>Gambella (GMB)</item>
+        <item>Jimma (JIM)</item>
+        <item>Lalibella (LLI)</item>
+        <item>Mekelle (MQX)</item>
+        <item>Semera (SZE)</item>
+        <item>Jijiga (JIJ)</item>
+        <item>Shire (SHC)</item>
+        <item>Kombolcha (DSE)</item>
+        <item>Goba Bale - Goba (GOB)</item>
+        <item>Humera (HUE)</item>
+        <item>Assosa (ASO)</item>
+        <item>Gode (GDE)</item>
+        <item>Hawassa (AWA)</item>
+        <item>Dembidollo (DEM)</item>
+        <item>Jinka (BCO)</item>
+        <item>Abuja (ABV) Nigeria Africa</item>
+        <item>Accra (ACC) Ghana Africa</item>
+        <item>Addis Ababa (ADD) Ethiopia Africa</item>
+        <item>Arba Minch (AMH) Ethiopia Africa</item>
+        <item>Atlanta (ATL) United States Americas</item>
+        <item>Axum (AXU) Ethiopia Africa</item>
+        <item>Beirut (BEY) Lebanon Asia</item>
+        <item>Bujumbura (BJR) Burundi Africa</item>
+        <item>Bahar Dar (BJR) Ethiopia Africa</item>
+        <item>Bamako (BKO) Mali Africa</item>
+        <item>Mumbai (BOM) India Asia</item>
+        <item>Boston (BOS) United States America</item>
+        <item>Brussels (BRU) Belgium Europe</item>
+        <item>Cairo (CAI) Egypt Africa</item>
+    </string-array>
+    <string-array name="Consignee_country">
+        <item>Select Consignee Country</item>
+        <item>Addis Ababa (ADD)</item>
+        <item>Arba Minch (AMH)</item>
+        <item>Axum (AXU)</item>
+        <item>Bahar Dar (BJR)</item>
+        <item>Dire Dawa (DIR)</item>
+        <item>Gondar (GDQ)</item>
+        <item>Gambella (GMB)</item>
+        <item>Jimma (JIM)</item>
+        <item>Lalibella (LLI)</item>
+        <item>Mekelle (MQX)</item>
+        <item>Semera (SZE)</item>
+        <item>Jijiga (JIJ)</item>
+        <item>Shire (SHC)</item>
+        <item>Kombolcha (DSE)</item>
+        <item>Goba Bale - Goba (GOB)</item>
+        <item>Humera (HUE)</item>
+        <item>Assosa (ASO)</item>
+        <item>Gode (GDE)</item>
+        <item>Hawassa (AWA)</item>
+        <item>Dembidollo (DEM)</item>
+        <item>Jinka (BCO)</item>
+        <item>Abuja (ABV) Nigeria Africa</item>
+        <item>Accra (ACC) Ghana Africa</item>
+        <item>Addis Ababa (ADD) Ethiopia Africa</item>
+        <item>Arba Minch (AMH) Ethiopia Africa</item>
+        <item>Atlanta (ATL) United States Americas</item>
+        <item>Axum (AXU) Ethiopia Africa</item>
+        <item>Beirut (BEY) Lebanon Asia</item>
+        <item>Bujumbura (BJR) Burundi Africa</item>
+        <item>Bahar Dar (BJR) Ethiopia Africa</item>
+        <item>Bamako (BKO) Mali Africa</item>
+        <item>Mumbai (BOM) India Asia</item>
+        <item>Boston (BOS) United States America</item>
+        <item>Brussels (BRU) Belgium Europe</item>
+        <item>Cairo (CAI) Egypt Africa</item>
+    </string-array>
+    <string-array name="aircraft_type">
+        <item>Select Aircraft</item>
+        <item>B777-200LR</item>
+        <item>B777-200F</item>
+        <item>B777-300ER</item>
+        <item>B757-200F</item>
+        <item>B767-300ER</item>
+        <item>B737-800</item>
+        <item>B737-700</item>
+        <item>B787-800</item>
+        <item>A350-900</item>
+    </string-array>
+    <string-array name="price_class">
+        <item>Select Price Class</item>
+        <item>Live Animal</item>
+        <item>Baggage as a Cargo</item>
+        <item>Books</item>
+        <item>Buds</item>
+        <item>Beverages</item>
+        <item>Cargo Aircraft Only</item>
+        <item>Car</item>
+        <item>Cargo Bags</item>
+        <item>Coffee</item>
+        <item>Dry chat</item>
+        <item>Fresh Chat</item>
+        <item>Chat - dry and fresh</item>
+        <item>Cabin loading</item>
+        <item>Cigarette</item>
+        <item>Covax General</item>
+        <item>Courier</item>
+        <item>Credit Cards</item>
+        <item>Computers</item>
+        <item>Cuttings</item>
+        <item>Civet</item>
+        <item>Dried Cherry Tomato</item>
+        <item>Dry food stuff</item>
+        <item>Dangerous Good Shipments</item>
+        <item>Dry Herbs</item>
+        <item>Diplomatic mail</item>
+        <item>Food Stuffs</item>
+        <item>E-Commerce Shipments</item>
+        <item>Enriched food stuff</item>
+    </string-array>
+    <string-array name="handling_code">
+        <item>Select Special Handling Code</item>
+        <item>ACTIVE TEMPERATURE CONTROLLED SYSTEM</item>
+        <item>DHL HUMANITARIAN LOGISTICS</item>
+        <item>AIRCRAFT ON GROUND</item>
+        <item>GOODS ATTACHED TO THE AWB</item>
+        <item>LIVE ANIMAL</item>
+        <item>BAGGAGE AS CARGO</item>
+        <item>OUTSIZED CARGO</item>
+        <item>CABIN LOADABLE SHIPMENT</item>
+        <item>Covid-19 vaccines</item>
+        <item>Computers</item>
+        <item>CUTTINGS</item>
+        <item>Dangerous Goods Group</item>
+        <item>Foods Stuffs</item>
+        <item>Batterie Lithium ion</item>
+    </string-array>
+    <string-array name="commodity_code">
+        <item>Select Commodity Code</item>
+        <item>Rates per Block Space Agreement</item>
+        <item>CONSOL</item>
+        <item>Direct Sales out of LGG</item>
+        <item>ETHIOPIAN MOZAMBIQUE</item>
+        <item>Filler Cargo</item>
+        <item>Hard Block Space Agreement</item>
+        <item>Promotional Rate</item>
+        <item>Rock Bottom Rate</item>
+        <item>SLACK SEASON RATES</item>
+        <item>Soft Block Space Agreement</item>
+    </string-array>
+
+    <string name="certificate_host_name">https://www.yenepay.com</string>
+    <string name="default_payment_request_cancelled_msg">YenePay Checkout Request Canceled</string>
+    <!--<string name="certificate_host_name">192.168.0.100</string>-->
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

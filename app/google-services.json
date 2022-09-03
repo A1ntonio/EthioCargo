@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "839754112942",
+    "firebase_url": "https://cargo-project-e292e-default-rtdb.firebaseio.com",
+    "project_id": "cargo-project-e292e",
+    "storage_bucket": "cargo-project-e292e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839754112942:android:62f23d20e706f060b7723f",
+        "android_client_info": {
+          "package_name": "com.puulapp.cargo_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839754112942-s40ot7dbosh0tvp4mputdhj3o5h82830.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKYFF8_zX-ux5AZaPkWRqdbW63DgDZwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839754112942-s40ot7dbosh0tvp4mputdhj3o5h82830.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839754112942:android:2ac29d65d272cc5eb7723f",
+        "android_client_info": {
+          "package_name": "com.puulapp.ethio_cargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839754112942-s40ot7dbosh0tvp4mputdhj3o5h82830.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKYFF8_zX-ux5AZaPkWRqdbW63DgDZwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839754112942-s40ot7dbosh0tvp4mputdhj3o5h82830.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
